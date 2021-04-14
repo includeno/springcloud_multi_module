@@ -6,7 +6,7 @@ EXPOSE 9000
 
 WORKDIR /app
 
-ADD two_module/target/two_module:1.0.jar /app/consumer.jar
+ADD two_module/target/two_module-1.0.jar /app/consumer.jar
 
 ENV application_name="consumer9000"
 ENV port="9000"

@@ -7,7 +7,7 @@ EXPOSE 8000
 WORKDIR /app
 ENV application_name="producer8000"
 ENV port="8000"
-ADD one_module/target/one_module:1.0.jar /app/producer.jar
+ADD one_module/target/one_module-1.0.jar /app/producer.jar
 
 #自定义变量 传入应用名称之类的https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables--e-env-env-file
 
