@@ -29,7 +29,7 @@ public class ConsumeController {
     @Autowired
     DiscoveryClient discoveryClient;
 
-    public static final String ZOOKEEPER_URL="http://produce8000";
+    public static final String ZOOKEEPER_URL="http://producer8000";
     @Autowired
     RestTemplate restTemplate;
 

@@ -12,7 +12,7 @@ import java.util.List;
 @Slf4j
 @RestController
 public class ProduceController {
-    public static final String ZOOKEEPER_URL="http://cloudpayment9000";
+    
 
     //服务发现
     @Autowired
